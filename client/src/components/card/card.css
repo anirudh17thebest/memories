@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 450px;
+  height: 240px;
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    padding: 5px;
+  }
+}
+
+.card:hover {
+  background-color: #65c18c;
+}
+
+.postImg {
+  object-fit: cover;
+  height: 200px;
+  width: 440px;
+}
+
+@media only screen and (max-width: 600px) {
+  .postImg {
+    width: 290px;
+    height: 170px;
+    margin-left: 0;
+  }
+}
+
+.postTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Mochiy Pop P One";
+  font-size: 19px;
+  color: #ffbd35;
+}

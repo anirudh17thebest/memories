@@ -1,0 +1,11 @@
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .feed {
+    padding: 5px;
+  }
+}

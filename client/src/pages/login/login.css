@@ -1,0 +1,71 @@
+.loginContainer {
+  height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  height: 380px;
+  width: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.loginTitle {
+  font-size: 30px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: gray;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginInput {
+  width: 250px;
+  margin-top: 26px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.loginButton {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: tomato;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.regUser {
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.loginError {
+  color: red;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Hind Siliguri", sans-serif;
+}

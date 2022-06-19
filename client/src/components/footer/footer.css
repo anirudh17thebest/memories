@@ -1,0 +1,10 @@
+.footer {
+  height: 70px;
+  background-color: #f9db24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 28px;
+  color: #fefbf3;
+}

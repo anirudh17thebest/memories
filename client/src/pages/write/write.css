@@ -1,0 +1,172 @@
+.writeContainer {
+  height: 80vh;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.write {
+  width: 600px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .write {
+    height: 600px;
+    width: 380px;
+    padding: 5px;
+  }
+}
+
+.mainPic {
+  height: 300px;
+  width: 530px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainPic {
+    height: 150px;
+    width: 265px;
+  }
+}
+
+.authorContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .authorContent {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+}
+
+.created {
+  font-size: 17px;
+}
+
+.updateWrite {
+  height: 540px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 10px;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .updateWrite {
+    height: 500px;
+    width: 360px;
+  }
+}
+
+.updatePic {
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .updatePic {
+    height: 250px;
+    width: 340px;
+  }
+}
+
+.updateTitle {
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  text-align: center;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.updateDesc {
+  width: 350px;
+  outline: none;
+  font-family: "Hind Siliguri", sans-serif;
+  height: 130px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid lightgray;
+}
+
+.updateBtn {
+  color: white;
+  background-color: teal;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  width: 130px;
+  border-radius: 15px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 15px;
+}
+
+.blog {
+  word-wrap: break-word;
+  font-family: "Hind Siliguri", sans-serif;
+  width: 550px;
+  font-size: 16px;
+}
+
+.blog::first-letter {
+  font-size: 170%;
+  margin-right: 2px;
+  color: #ffbd35;
+  font-family: "Mochiy Pop P One";
+}
+
+@media only screen and (max-width: 600px) {
+  .blog {
+    width: 350px;
+    font-size: 15px;
+  }
+}
+
+.wTitle {
+  margin-top: 10px;
+  font-size: 19px;
+  color: #ffbd35;
+  font-family: "Mochiy Pop P One";
+}
+
+@media only screen and (max-width: 600px) {
+  .wTitle {
+    font-size: 18px;
+  }
+}
+
+.created {
+  font-size: 16px;
+  color: teal;
+  font-family: "Mochiy Pop P One";
+  margin-bottom: 10px;
+}

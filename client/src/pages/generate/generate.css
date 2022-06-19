@@ -1,0 +1,103 @@
+.generateContainer {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.generate {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .generate {
+    height: 500px;
+    width: 400px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+  }
+}
+
+.generateImage {
+  object-fit: "cover";
+  border-radius: 10px;
+  height: 300px;
+  width: 480px;
+}
+
+@media only screen and (max-width: 600px) {
+  .generateImage {
+    height: 200px;
+    width: 290px;
+    object-fit: "cover";
+    border-radius: 10px;
+  }
+}
+
+.geneImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.gInput {
+  height: 25px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .gInput {
+    height: 25px;
+    width: 240px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+.gText {
+  outline: none;
+  padding: 5px;
+  border: 1px solid lightgray;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  width: 400px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gText {
+    width: 280px;
+    height: 200px;
+  }
+}
+
+.gbtn {
+  font-family: "Hind Siliguri", sans-serif;
+  color: white;
+  background-color: tomato;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  margin-top: 20px;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+}
